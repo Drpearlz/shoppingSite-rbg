@@ -1,0 +1,24 @@
+.container-fluid{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.nav-item:hover{
+    background-color:blueviolet;
+}
+@media (max-width:900px) {
+    .navbar{
+        background-color: blue;
+    }
+}
+@media (max-width: 600px) {
+    .navbar{
+        background-color:aquamarine;
+    }    
+}
+@media (max-width: 400px) {
+    .navbar{
+        background-color:salmon;
+    }    
+}
